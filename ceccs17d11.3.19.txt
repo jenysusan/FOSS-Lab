@@ -1,0 +1,94 @@
+Script started on 2019-03-11 20:55:57+0530
+]0;jeny@jeny-HP-ProBook-450-G2: ~[01;32mjeny@jeny-HP-ProBook-450-G2[00m:[01;34m~[00m$ exitsftp cs17d28@14.139.189exit[Ksftp cs17d28@14.139.189.217
+The authenticity of host '14.139.189.217 (14.139.189.217)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '14.139.189.217' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> put resultss1.txt
+Uploading resultss1.txt to /home/cs17d28/resultss1.txt
+resultss1.txt                                   0%    0     0.0KB/s   --:-- ETAresultss1.txt                                 100% 6947    11.7KB/s   00:00    
+sftp> getput resultss1.txt[Pt[Pt[1@gt[1@et
+Fetching /home/cs17d28/resultss1.txt to resultss1.txt
+/home/cs17d28/resultss1.txt                     0%    0     0.0KB/s   --:-- ETA/home/cs17d28/resultss1.txt                   100% 6947    16.7KB/s   00:00    
+sftp> bye
+]0;jeny@jeny-HP-ProBook-450-G2: ~[01;32mjeny@jeny-HP-ProBook-450-G2[00m:[01;34m~[00m$ sftp cs17d28@14.139.189.217exit[Ksftp cs17d28@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> user
+Invalid command.
+sftp> ls
+
+^CInterrupt  
+
+
+^CInterrupt  
+^CInterrupt  
+exit
+
+
+lcd
+^Z
+[1]+  Stopped                 sftp cs17d28@14.139.189.217
+]0;jeny@jeny-HP-ProBook-450-G2: ~[01;32mjeny@jeny-HP-ProBook-450-G2[00m:[01;34m~[00m$ sftp cs17d28@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> st[Kftp ls
+Invalid command.
+sftp> sftp lsls[Kls[Kls[Kls[Kls[K
+examples.desktop    exit                resultss1.txt       
+sftp> ls -l
+-rw-r--r--    1 cs17d28  cs17d        8980 Apr 20  2016 examples.desktop
+-rw-r--r--    1 cs17d28  cs17d         110 Feb 25 12:04 exit
+-rw-r--r--    1 cs17d28  cs17d        6947 Mar 11 20:57 resultss1.txt
+sftp> cat abc.txt
+Invalid command.
+sftp> ls -lt
+-rw-r--r--    1 cs17d28  cs17d        6947 Mar 11 20:57 resultss1.txt
+-rw-r--r--    1 cs17d28  cs17d         110 Feb 25 12:04 exit
+-rw-r--r--    1 cs17d28  cs17d        8980 Apr 20  2016 examples.desktop
+sftp> pwd
+Remote working directory: /home/cs17d28
+sftp> uname
+Invalid command.
+sftp> free
+Invalid command.
+sftp> mkdir
+You must specify a path after a mkdir command.
+sftp> man ftp
+Invalid command.
+sftp> man ftpsftp
+Invalid command.
+sftp> hasg[Kh
+Invalid command.
+sftp> hash[K[K[K[Kput alisa[K[Kas
+stat alias: No such file or directory
+sftp> bye
+
+^CInterrupt  
+^Z
+[2]+  Stopped                 sftp cs17d28@14.139.189.217
+]0;jeny@jeny-HP-ProBook-450-G2: ~[01;32mjeny@jeny-HP-ProBook-450-G2[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+]0;jeny@jeny-HP-ProBook-450-G2: ~[01;32mjeny@jeny-HP-ProBook-450-G2[00m:[01;34m~[00m$ scrit[Kpt[K[K[K[K[K[Keit[K[Kxit
+exit
+packet_write_wait: Connection to 14.139.189.217 port 22: Connection timed out
+
+Script done on 2019-03-11 22:43:28+0530
