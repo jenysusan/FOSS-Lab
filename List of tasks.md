@@ -23,6 +23,9 @@ Task7: Setting up http and ftp servers
 
 Task8:Further tasks
         1. Package management
+        
         2. perl
+        
         3. LAMP stack
+        
         4. Kernel compilation
