@@ -1,0 +1,142 @@
+Script started on Monday 25 March 2019 05:43:53 AM +0530
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ rsync  [K-avzh /home/lab2/a.txt cs17d28@192.168.0.30:
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is d8:e8:3a:9a:e6:9d:37:9c:e9:3b:8d:e3:eb:eb:36:a0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+sending incremental file list
+a.txt
+
+sent 90 bytes  received 31 bytes  7.81 bytes/sec
+total size is 7  speedup is 0.06
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ rsync -zvh /home/lab2/a.txt /home/lab2/Desktop/b,[K.txt
+a.txt
+
+sent 73 bytes  received 31 bytes  208.00 bytes/sec
+total size is 7  speedup is 0.07
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ rsync -avzhe ssh root@192.168.0.100:/root/install.log / tmp/[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K30[1P@192.168.0.30[1P@192.168.0.30[1P@192.168.0.30[1P@192.168.0.30c@192.168.0.30s@192.168.0.301@192.168.0.307@192.168.0.30d@192.168.0.302@192.168.0.308@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C /home/lab2/a.txt  [A
+sending incremental file list
+rsync: link_stat "/home/lab2/cs17d28@192.168.0.30" failed: No such file or directory (2)
+
+sent 12 bytes  received 12 bytes  48.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1070) [sender=3.0.9]
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ rsync -avzhe ssh cs17d28@192.168.0.30 /home/lab2/a.txt  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pzvh /home/lab2/a.txt /home/lab2/Desktop/b.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[1@udrsync -zvh /home/lab2/a.txt /home/lab2/Desktop/b.txt [A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [C[C[Corsync -zvh /home/lab2/a.txt /home/lab2/Desktop/b.txtt[A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [C[C[C[C rsync -zvh /home/lab2/a.txt /home/lab2/Desktop/b.txt[A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [C[C[C[C[C
+
+[sudo] password for lab2: 
+Sorry, try again.
+[sudo] password for lab2: 
+a.txt
+
+sent 73 bytes  received 31 bytes  208.00 bytes/sec
+total size is 7  speedup is 0.07
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo rsync -zvh /home/lab2/a.txt /home/lab2/Desktop/b.txxt[A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ rsync -avzhe ssh cs17d28@192.168.0.30 /home/lab2/a.txt  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csrsync -avzhe ssh cs17d28@192.168.0.30 /home/lab2/a.txt  [A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [Cursync -avzhe ssh cs17d28@192.168.0.30 /home/lab2/a.txt [A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [C[Cdrsync -avzhe ssh cs17d28@192.168.0.30 /home/lab2/a.txt [A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [C[C[Corsync -avzhe ssh cs17d28@192.168.0.30 /home/lab2/a.t[1@x[A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [C[C[C[C rsync -avzhe ssh cs17d28@192.168.0.30 /home/lab2/a.[1@t[A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [C[C[C[C[C
+
+sending incremental file list
+rsync: link_stat "/home/lab2/cs17d28@192.168.0.30" failed: No such file or directory (2)
+
+sent 12 bytes  received 12 bytes  48.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1070) [sender=3.0.9]
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo rsync -avzhe ssh cs17d28@192.168.0.30 /home/lab2/a..txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: /home/lab2/a[1@.[A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/home/lab2/a.[1P[A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is d8:e8:3a:9a:e6:9d:37:9c:e9:3b:8d:e3:eb:eb:36:a0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+receiving incremental file list
+rsync: change_dir "/home/lab2" failed: No such file or directory (2)
+
+sent 8 bytes  received 12 bytes  1.48 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1536) [Receiver=3.0.9]
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo rsync -avzhe ssh cs17d28@192.168.0.30:/home/lab2/a..txt  [K[A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo rsync -avzhe ssh cs17d28@192.168.0.30:/home/lab2/a.txt  [K]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo rsync -avzhe ssh cs17d28@192.168.0.30:/home/lab2/a.txt  [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/home/lab2/Desktop/b.txt
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+receiving incremental file list
+rsync: change_dir "/home/lab2/Desktop" failed: No such file or directory (2)
+
+sent 8 bytes  received 12 bytes  1.21 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1536) [Receiver=3.0.9]
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo rsync -avzhe ssh cs17d28@192.168.0.30:/home/lab2/Desktop/b.txt[1P[1P[1P[1P[1P
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+receiving incremental file list
+rsync: change_dir "/home/lab2/Desktop" failed: No such file or directory (2)
+
+sent 8 bytes  received 12 bytes  3.08 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1536) [Receiver=3.0.9]
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh sample.ssh.com
+ssh: Could not resolve hostname sample.ssh.com: Name or service not known
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh sample.ssh.com[C[C[1@s[1@u[1@f[1@o[1P[1P[1@d[1@p[1P[1@o[1@ 
+ssh: Could not resolve hostname sample.ssh.com: Name or service not known
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo service ssh start
+ssh: unrecognized service
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh udo service ssh start[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[C[C[1P ssh[1P ssh[1P ssh[1P ssh[1P ssh[1P sshy sshs ssht sshe sshm ssh[C ssh[1Psshc ssht sshl ssh[C sshs ssht ssha sshr ssht ssh[C ssh[1Pssh
+sudo: systemctl: command not found
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo systemctl start ssh[1P[1P[1P[1P[1P
+systemctl: command not found
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ systemctl start ssh[5@udo s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pervice ssh start[1P[1P[1P[1P[1P
+ssh: unrecognized service
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ service ssh start[K[K[K[K[K[1P[1P[1P[1P[1P[1P[1P[C[1P[C[C[C[C c s 2 [1P 1 7 d 2 4 @ 1 4 . 1 3 9 . 1 8 9 . 2 1 7 [1P[1@8
+ssh: connect to host 14.139.189.217 port 22: Network is unreachable
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sshs[K s1
+ssh: Could not resolve hostname s1: Name or service not known
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh 14.139.184.215[K[K[K[K[K[K[K[K[K9.189.214[K7
+ssh: connect to host 14.139.189.217 port 22: Network is unreachable
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt s[Kcs17d28@192.168.0.30: b.txt
+b.txt: No such file or directory
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: b.txt[K[K[K[K[K[K /home/lab2/Desktop/b.rtx[K[K[K[K.txt
+cp: cannot create regular file `/home/lab2/Desktop/b.txt/a.txt': Permission denied
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/lab2/Desktop/b.txt
+cp: cannot create regular file `/home/lab2/Desktop/b.txt/a.txt': Permission denied
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/lab2/Desktop/b.txt[C[1@s[1@u[1@d[1@o[1@ 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ exit
+exit
+
+Script done on Monday 25 March 2019 06:29:18 AM +0530
