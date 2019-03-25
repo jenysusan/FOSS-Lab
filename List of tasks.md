@@ -21,7 +21,7 @@ Task6: Linux Installation
 
 Task7: Setting up http and ftp servers
 
-Task8:Further tasks
+Task8: Further tasks
 
         1. Package management
         
