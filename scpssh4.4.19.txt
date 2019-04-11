@@ -1,0 +1,164 @@
+Script started on Thursday 04 April 2019 05:45:23 AM IST
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh cs17d10@14.139.189.2 
+ssh: connect to host 14.139.189.2 port 22: Network is unreachable
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ 17ssh cs17d10@14.139.189.2 [K17
+ssh: connect to host 14.139.189.217 port 22: Network is unreachable
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh cs17d10@14.139.189.217[1P@14.139.189.217[1P@14.139.189.2172@14.139.189.2178@14.139.189.217
+ssh: connect to host 14.139.189.217 port 22: Network is unreachable
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh cs17d28@14.139.189.217[K[K[K[K[K[K[K[K[K[K[K[K[K92.168.02.[K[K.2
+cs17d28@192.168.0.2's password: 
+Permission denied, please try again.
+cs17d28@192.168.0.2's password: 
+Permission denied, please try again.
+cs17d28@192.168.0.2's password: 
+
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh cs17d28@192.168.0.217[K[K[K8[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 25 11:16:40 2019 from 192.168.0.79
+$ pwd
+/home/cs17d28
+$ cd
+$ ls
+a.txt  examples.desktop  exit  resultss1.txt
+$ exit
+Connection to 192.168.0.30 closed.
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp s2result.pdf cs17d10 
+cp: cannot stat `s2result.pdf': No such file or directory
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ @14.139.189.217[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscp a.txt cs17d28@192.168.0.30
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/lab2/Desktop/b.tx t
+cp: cannot create regular file `/home/lab2/Desktop/b.txt/a.txt': Permission denied
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/lab2/Desktop/b.txtt[K[A]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/lab2/Desktop/b.txt[K]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/lab2/Desktop/b.txt[K[K[K[K[K[K
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/lab2/Desktop[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp a.txt cs17d28@192.168.0.30: /home/lab2/Desktop[K[K[K[K[K[K[K[K
+cp: `a.txt' and `/home/lab2/a.txt' are the same file
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/lab2[C[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for lab2: 
+Sorry, try again.
+[sudo] password for lab2: 
+cp: `a.txt' and `/home/lab2/a.txt' are the same file
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo scp a.txt cs17d28@192.168.0.30: /home/lab2/28
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo scp a.txt cs17d28@192.168.0.30: /home/lab2/28
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo scp a.txt cs17d28@192.168.0.30: /home/lab2/28
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+scp: .: not a regular file
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh [K[K[K[Kscp a.txt cs17d28@192.1168.[1P68..68..68..68.[1P68.[1P68.[1P68.[C[C[C0.30: /home/cs17d28
+/home/cs17d28: No such file or directory
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh cs17d@2@8@[C192.168.030[K[K.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Apr  4 11:16:24 2019 from 192.168.0.126
+$ pwd
+/home/cs17d28
+$ exit
+Connection to 192.168.0.30 closed.
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh cs17d28@192.168.0.30cp a.txt cs17d28@192.168.0.30: /home/cs17d28
+/home/cs17d28: No such file or directory
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/cs17d28/
+/home/cs17d28/: No such file or directory
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30: /home/cs17d28/[1P/home/cs17d28/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+a.txt                                                                                                           0%    0     0.0KB/s   --:-- ETAa.txt                                                                                                         100%    7     0.0KB/s   00:00    
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp a.txt cs17d28@192.168.0.30:/home/cs17d28/[1@b[1@c[1@d[1@e
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+abcde.txt                                                                                                       0%    0     0.0KB/s   --:-- ETAabcde.txt                                                                                                     100%   18     0.0KB/s   00:00    
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ scp abcde.txt cs17d28@192.168.0.30:/home/cs17d28/[1P[1P[1P[1P[1@r[1@s[1@y[1@n[1@c[1@ [1@-[1@z[1@v[1@h[1@ [C[C[C[C[C[1P[1P[1P[1P
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+a.txt
+
+sent 63 bytes  received 37 bytes  22.22 bytes/sec
+total size is 7  speedup is 0.07
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ rsync -zvh a.txt cs17d28@192.168.0.30:/home/cs17d28/[1@b[1@c[1@d[1@e[1P
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d28@192.168.0.30's password: 
+]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ev[Kxit
+exit
+
+Script done on Thursday 04 April 2019 06:13:30 AM IST
