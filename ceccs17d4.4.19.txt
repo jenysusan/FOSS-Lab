@@ -3,6 +3,7 @@ Jeny Susan Rajan
 Roll No: 28
 
 
+
 Script started on Thursday 04 April 2019 04:10:50 AM IST
 ]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo apt-get install vsftpd
 [sudo] password for lab2: 
