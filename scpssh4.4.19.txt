@@ -3,7 +3,6 @@ Jeny Susan Rajan
 Roll No: 28
 
 
-
 Script started on Thursday 04 April 2019 05:45:23 AM IST
 ]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ssh cs17d10@14.139.189.2 
 ssh: connect to host 14.139.189.2 port 22: Network is unreachable
