@@ -1,3 +1,9 @@
+Jeny Susan Rajan
+     S4 D
+Roll No: 28
+
+
+
 Script started on Thursday 11 April 2019 04:01:11 AM IST
 ]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ su - cec
 Unknown id: cec
@@ -7,7 +13,7 @@ Unknown id: cec
 
 0% [Working]
             
-Get:1 http://extras.ubuntu.com precise Release.gpg [72 B]
+Get:1 http://extras.ubuntu.com precise Release.gp]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ su - cec]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ su - cecg [72 B]
 
             
 86% [Waiting for headers] [Waiting for headers] [1 Release.gpg 72 B/72 B 100%] 
