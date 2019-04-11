@@ -1,9 +1,37 @@
+Jeny Susan Rajan
+   S4 D
+Roll No: 28
+
+
+
 Script started on Thursday 04 April 2019 04:10:50 AM IST
 ]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ sudo apt-get install vsftpd
 [sudo] password for lab2: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 vsftpd is already the newest version.
 0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
 ]0;lab2@lab2-HCL-Desktop: ~lab2@lab2-HCL-Desktop:~$ ftp: [C[1@ [C[Clocal hosr[Kt
