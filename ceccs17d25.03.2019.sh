@@ -1,3 +1,10 @@
+Jeny Susan Rajan
+     S4 D
+  Roll No: 28
+
+
+
+
 pdftotext -nopgbrk result_CHN.pdf
 grep --no-group-separator -A3 'CHN17CS' result_CHN.txt | tr '\n' ' ' | sed 's/\ CHN/\nCHN/g' > results.txt
 cat result_CHN.txt
