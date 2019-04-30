@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 curl -fLO "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.0.9.tar.xz"
 sudo apt install curl
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
