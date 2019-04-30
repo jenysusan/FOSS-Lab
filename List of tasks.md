@@ -21,12 +21,12 @@ Done by:
 
 - [x] Task7: Setting up http and ftp servers
 
-      Task8: Further tasks
+     Task8: Further tasks
 
-      - [x]        1. Package management
+     - [x]        1. Package management
         
-      - [x]        2. perl
+     - [x]        2. perl
         
-                   3. LAMP stack
+     3. LAMP stack
         
-      - [x]        4. Kernel compilation
+     - [x]        4. Kernel compilation
