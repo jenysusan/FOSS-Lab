@@ -1,6 +1,9 @@
-##LAMP##
+Jeny Susan Rajan
+     S4 D
+  Roll No: 28
 
-s4d2@cec-H110M:~$ su - cec
+
+s4d1@cec-H110M:~$ su - cec
 Password: 
 cec@cec-H110M:~$ sudo apt update
 [sudo] password for cec: 
