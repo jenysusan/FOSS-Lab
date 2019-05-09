@@ -1,3 +1,4 @@
+
 sudo apt-get install nginx      #install nginx
 cd /var/www
 ls
