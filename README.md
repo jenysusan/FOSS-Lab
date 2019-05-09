@@ -21,7 +21,7 @@ Done by:
 
 - [x] Task7: Setting up http and ftp servers
 
-Task8: Further tasks
+- [x] Task8: Further tasks
 
 - [x]        1. Package management
         
