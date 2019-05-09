@@ -23,12 +23,12 @@ Done by:
 
 - [x] Task8: Further tasks
 
-- [x]        1. Package management
+     - [x]        1. Package management
         
-- [x]        2. perl
+     - [x]        2. perl
         
-- [x]        3. LAMP stack
+     - [x]        3. LAMP stack
         
-- [x]        4. Kernel compilation
+     - [x]        4. Kernel compilation
 
 Task9:  Create your own webpage
