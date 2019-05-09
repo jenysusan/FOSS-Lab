@@ -1,4 +1,6 @@
 #!/usr/bin/sh
+
+
 sudo apt update
 sudo apt install apache2
 sudo ufw app list
