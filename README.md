@@ -27,7 +27,7 @@ Task8: Further tasks
         
 - [x]        2. perl
         
-             3. LAMP stack
+- [x]        3. LAMP stack
         
 - [x]        4. Kernel compilation
 
