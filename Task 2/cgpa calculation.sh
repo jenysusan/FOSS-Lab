@@ -3,7 +3,7 @@ Jeny Susan Rajan
   Roll No: 28
 
 
-
+#!/usr/bin/env bash
 
 pdftotext -nopgbrk result_CHN.pdf
 grep --no-group-separator -A3 'CHN17CS' result_CHN.txt | tr '\n' ' ' | sed 's/\ CHN/\nCHN/g' > results.txt
