@@ -1,0 +1,77 @@
+Script started on 2019-05-14 20:02:33+0530
+]0;jeny@jenys-workspace: ~[01;32mjeny@jenys-workspace[00m:[01;34m~[00m$ exitbash calc.sh[8Pexitbash calc.sh
+Enter two numbers:
+9 3
+Calculator options:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice:
+1
+Sum is 12
+]0;jeny@jenys-workspace: ~[01;32mjeny@jenys-workspace[00m:[01;34m~[00m$ bash calc.sh
+Enter two numbers:
+9 3
+Calculator options:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice:
+2
+Difference is 6
+]0;jeny@jenys-workspace: ~[01;32mjeny@jenys-workspace[00m:[01;34m~[00m$ bash calc.sh
+Enter two numbers:
+9 3
+Calculator options:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice:
+3
+Product is 27
+]0;jeny@jenys-workspace: ~[01;32mjeny@jenys-workspace[00m:[01;34m~[00m$ bash calc.sh
+Enter two numbers:
+9 3
+Calculator options:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice:
+4
+Quotient is 3
+]0;jeny@jenys-workspace: ~[01;32mjeny@jenys-workspace[00m:[01;34m~[00m$ bash calc.sh
+Enter two numbers:
+9 3
+Calculator options:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice:
+5
+Modulus is 0
+]0;jeny@jenys-workspace: ~[01;32mjeny@jenys-workspace[00m:[01;34m~[00m$ bash calc.sh[8Pexitbash calc.sh
+Enter two numbers:
+9 3
+Calculator options:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice:
+6
+Invalid Choice
+]0;jeny@jenys-workspace: ~[01;32mjeny@jenys-workspace[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-05-14 20:03:36+0530
