@@ -1,5 +1,10 @@
+Jeny Susan Rajan
+      S4 D
+   Roll No: 28
+
+
 Script started on 2019-05-14 20:02:33+0530
-]0;jeny@jenys-workspace: ~[01;32mjeny@jenys-workspace[00m:[01;34m~[00m$ exitbash calc.sh[8Pexitbash calc.sh
+]0;jeny@jenys-workspace: ~[01;32mjeny@jenys-workspace[00m:[01;34m~[00m$ bash calc.sh
 Enter two numbers:
 9 3
 Calculator options:
