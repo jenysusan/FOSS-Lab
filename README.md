@@ -1,11 +1,9 @@
-# cs232
 Free and Open Source Software Lab 
 
 Done by:
 
         Jeny Susan Rajan
-        S4 D
-        Roll No: 28
+        
 
 - [x] Task1: Linux Commands
 
